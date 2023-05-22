@@ -1,29 +1,120 @@
-/*
-    RESET
-*/
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}    
+/*************************************************
+    GENERAL STYLES
+ *************************************************/
+*,
+ *::before,
+ *::after {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ body {
+     font-family: Arial, Helvetica, sans-serif;
+     color: ;
+     background: ;
+ }
+ 
+ h1,
+ h2,
+ h3 {
+     color: ;
+ }
+ 
+ h1 {
+     margin-bottom: 3rem;
+     font-size: 2.5rem;
+ }
+ 
+ h2 {
+     margin-bottom: 2.5rem;
+     font-size: 2rem;
+     color: #fffffe;
+ }
+ 
+ h3 {
+     margin-bottom: 1rem;
+     font-size: 1.5rem;
+ }
+ 
+ img {
+     max-width: 100%;
+ }
 
-.container{
-    max-width: 1200px;
-    margin:0 auto;
-}
+ /************************************************
+     UTILITIES
+  ************************************************/
+ 
+ /* LAYOUT */
+ .container {
+     width: 1200px;
+     margin: 0 auto;
+ }
+ 
+ .row {
+     display: ;
+ }
+ 
+ .col {
+     padding-left: ;
+     padding-right:;
+ }
+ 
+/* TEXT */
+ .text-center {
+     text-align: ;
+ }
 
-/*
-    GENERAL
-*/
+/************************************************
+     SITE SECTIONS
+  ************************************************/
+ 
+ /* HEADER */
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-/*
-     DEBUG
-*/
+/* LESSONS SECTION */
+
+
+ /************************************************
+     SOLUZIONE RESPONSIVE
+  ************************************************/
+
+/* Media Query Desktop First : Caso Base Desktop */
+ 
+
+/* Media Query Tablet */
+
+@media screen and (max-width: 768px){
+    . CLASSE{
+        width: 100%;  
+    }
+} 
+
+/* Media Query Mobile */
+
+
+
+
+/* Media Query Desktop First : Caso Base Mobile */
+ 
+
+/* Media Query Tablet */
+
+@media screen and (min-width: 768px){
+    . CLASSE{
+        width: 100%;  
+    }
+} 
+
+/* Media Query Desktop */
+
+
+
+/*************************************************
+    DEBUG
+ *************************************************/
 
 .debug{
      border:2px dashed black;
 }
+
